@@ -42,7 +42,7 @@ print("Range - upper vs lower of dates and time for pickup_datetime attribute in
 print("Total rows are: ", n)
 
 ```
-![range_dates](/images/image0.png)
+![range_dates](images/image0.png)
 Number of Rows for this dataset are : 13,823,840
 
 2. What are the field names?  Give descriptions for each field.
@@ -56,7 +56,7 @@ with open('trip_data_7.csv', 'r') as f:
         print('Field Names: ', line)
         break
 ```
-![field_name](/images/image1.png)
+![field_name](images/image1.png)
 
 
 3. Give some sample data for each field.
@@ -75,7 +75,7 @@ with open('trip_data_7.csv', 'r') as f:
             
 ```
 
-![sampel_data](/images/image2.png)
+![sampel_data](images/image2.png)
 
 4. What MySQL data types / len would you need to store each of the fields? 
     - int(xx), varchar(xx),date,datetime,bool, decimal(m,d)
@@ -151,7 +151,7 @@ with open('trip_data_7.csv', 'r') as f:
                 break
 ```
 
-[GeoJson Map](/map/map.geojson)
+[GeoJson Map](map/map.geojson)
 
 6. What is the average computed trip distance? (You should use [Haversine Distance](https://stackoverflow.com/a/4913653))
 - Draw a histogram of the trip distances binned anyway you see fit.
@@ -216,16 +216,16 @@ plt.show()
 
 ```
 
-![histogram1](/images/image3.png)
+![histogram1](images/image3.png)
 
 7. What are the distinct values for each field? (If applicable)
 
-![distint_values](/images/image4.png)
+![distint_values](images/image4.png)
 
 
 8. For other numeric types besides lat and lon, what are the min and max values?
 
-![max_min_values](/images/image5.png)
+![max_min_values](images/image5.png)
 
 9. Create a chart which shows the average number of passengers each hour of the day. (X axis should have 24 hours)
 
@@ -276,7 +276,7 @@ plt.show()
 
 ```
 
-![avg.passengers](/images/image6.png)
+![avg.passengers](images/image6.png)
 
 10. Create a new CSV file which has only one out of every thousand rows.
 ```python
@@ -336,7 +336,7 @@ plt.show()
 
 ```
 
-![reduced_csv](/images/image7.png)
+![reduced_csv](images/image7.png)
 
 <!---
 ![ScreenShot](images/img1.png)
